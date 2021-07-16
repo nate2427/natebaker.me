@@ -1,0 +1,8 @@
+POST http://localhost:54321/api/v1/sendMail HTTP/1.1
+content-type: application/json
+
+{
+    "to": "natebaker2427@gmail.com",
+    "subject": "Testing from the rest client",
+    "text": "Yoooo, it went through and its showing up on my gmail"
+}
